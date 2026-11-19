@@ -1,0 +1,62 @@
+# ===== 数据集（太大，不进仓库）=====
+# 522MB 的压缩包超过 GitHub 单文件 100MB 上限，请放网盘 / Release
+face_data1.zip
+face_data1/
+
+# ===== 运行产物 =====
+# notebook 生成的对比图，每次跑都会重新生成
+show/
+*.avi
+*.mp4
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*-checkpoint.xml
+*-checkpoint.ipynb
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.conda
+
+# ===== 模型权重 / 缓存 =====
+# MTCNN 首次运行会下载权重到这里
+.mtcnn/
+*.npy
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+.cache/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志 / 临时文件 =====
+*.log
+*.tmp
+*.bak
+~$*
